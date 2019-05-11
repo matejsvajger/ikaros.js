@@ -2,9 +2,9 @@
 
 ## Issues
 
-Feel free to [open an issue](https://github.com/matejsvajger/npm-package-foundation/issues/new),
-or propose a [pull request](https://github.com/matejsvajger/npm-package-foundation/pulls).
-To prevent duplication, please look at [existing issues](https://github.com/matejsvajger/npm-package-foundation/issues?q=is%3Aissue) before posting a new one.
+Feel free to [open an issue](https://github.com/matejsvajger/ikaros.js/issues/new),
+or propose a [pull request](https://github.com/matejsvajger/ikaros.js/pulls).
+To prevent duplication, please look at [existing issues](https://github.com/matejsvajger/ikaros.js/issues?q=is%3Aissue) before posting a new one.
 
 ## TL;DR
 
@@ -22,7 +22,7 @@ To prevent duplication, please look at [existing issues](https://github.com/mate
 _**Prerequisites:** you need to have `git`, `node` (>=8) and `npm` installed_.
 
 ```bash
-git clone https://github.com/matejsvajger/npm-package-foundation.git
+git clone https://github.com/matejsvajger/ikaros.js.git
 ```
 
 _(or your clone's Git URL)_
@@ -40,7 +40,7 @@ yarn test
 ```
 
 ```log
-> package-foundation@1.0.0 test ./npm-package-foundation
+> ikaros@1.0.0 test ./ikaros
 > jest
 
  PASS  specs/lib/index.spec.js

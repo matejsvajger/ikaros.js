@@ -1,14 +1,14 @@
 {
-  "name": "package-foundation",
-  "version": "1.2.0",
-  "description": "Skeleton for a simple NPM Package with ES2015 support and CI already configured.",
+  "name": "ikaros.js",
+  "version": "0.1.0",
+  "description": "A wrapper for axios with error handling.",
   "license": "MIT",
   "config": {
-    "scriptName": "PackageFoundation"
+    "scriptName": "Ikaros"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matejsvajger/npm-package-foundation"
+    "url": "https://github.com/matejsvajger/ikaros.js"
   },
   "author": "Matej Svajger <hello@matejsvajger.com>",
   "engines": {
@@ -37,8 +37,8 @@
   "files": [
     "dist"
   ],
-  "main": "dist/package-foundation.js",
-  "module": "dist/package-foundation.esm.js",
+  "main": "dist/ikaros.js",
+  "module": "dist/ikaros.esm.js",
   "keywords": [
     "package",
     "skeleton",

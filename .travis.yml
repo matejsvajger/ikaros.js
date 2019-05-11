@@ -16,7 +16,7 @@ script:
   - '[[ "$REPORT_COVERAGE" != true ]] || codecov'
 after_success: >
   if [ "$TRAVIS_PULL_REQUEST" = "false" ] && [ "$BUILD_DOCS" = "true" ]; then
-    bash <(curl -s https://gist.githubusercontent.com/matejsvajger/864691b103271a85005319741034b034/raw/5e933a4b21af4d3a9b5a7c669dafb59679b9d030/update-esdoc.sh) matejsvajger/npm-package-foundation;
+    bash <(curl -s https://gist.githubusercontent.com/matejsvajger/864691b103271a85005319741034b034/raw/5e933a4b21af4d3a9b5a7c669dafb59679b9d030/update-esdoc.sh) matejsvajger/ikaros.js;
   fi
 deploy:
   provider: npm
@@ -25,7 +25,7 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    repo: matejsvajger/npm-package-foundation # Prevents publishing on PRs
+    repo: matejsvajger/ikaros.js # Prevents publishing on PRs
     condition: $NPM_DEPLOY = true # Prevents publishing on each matrix build
 cache:
   directories:
